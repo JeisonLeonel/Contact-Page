@@ -15,7 +15,12 @@
 
 </head>
 <body>
-    <header class="message">
+    <!--Icono del inicio-->
+    <div class="icon">
+        <img src="img/contact-form-icon.svg" alt="">
+    </div>
+    <!--Contenedor del encabezado-->
+    <header class="Text_main">
         <p class="text_main">
             Interested in our business pricing?
         </p>
@@ -24,13 +29,48 @@
             contact you as soon as possible.
         </p>    
     </header>
+    <!--Contenedor del formulario que estara dividido en tres partes las cuales son la informacion, mesange y boton-->
     <main class="form">
+        <!--Primer contenedor el cual es el de la informacion-->
         <div class="information">
             <div class="name">
                 <label for="name">Name</label>
                 <input type="text" id="fname" name="fname" value="Ethan Johnson">
             </div>
-            
+            <div class="company_email">
+                <label for="company_email">Company Email</label>
+                <input type="email" id="Email" name="Email" value="ethan@johnson.com">
+            </div>
+            <div class="company_size">
+                <label for="company_size">Company Size</label>
+                <div class="employees">
+                    <p>
+                        50-100 employees
+                    </p>
+                    <img src="img/Expand_down.svg" alt="Expand_down">
+                </div>
+            </div>
+            <div class="Subject">
+                <label for="Subject">Subject</label>
+                <div class="input">
+                    <p>
+                        Building Landing pages
+                    </p>
+                    <img src="img/Expand_down.svg" alt="Expand_down">
+                </div>
+            </div>
+        </div>
+        <!--Segundo contenedor el mensaje-->
+        <div class="massage">
+            <p class="text_message">
+                50-100 employees
+            </p>
+        </div>
+        <!--Tercer contenedor el button-->
+        <div class="Contact_Sales">
+            <button type="text">
+                Contact Sales
+            </button>
         </div>
     </main>
 </body>
