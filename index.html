@@ -10,8 +10,9 @@
     <!--Link de los estilo de font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,
-                500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,
+                wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,
+                100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -21,13 +22,14 @@
     </div>
     <!--Contenedor del encabezado-->
     <header class="Text_main">
-        <p class="text_main">
-            Interested in our business pricing?
-        </p>
-        <p class="text_secondary">
-            Fill out the form to view details and we’ll 
-            contact you as soon as possible.
-        </p>    
+        <div class="text_main">
+            <p>Interested in our</p>
+            <p>business pricing?</p>
+        </div>
+        <div class="text_secondary">
+            <p>Fill out the form to view details and we’ll </p>
+            <p>contact you as soon as possible.</p>
+        </div>    
     </header>
     <!--Contenedor del formulario que estara dividido en tres partes las cuales son la informacion, mesange y boton-->
     <main class="form">
@@ -35,11 +37,13 @@
         <div class="information">
             <div class="name">
                 <label for="name">Name</label>
-                <input type="text" id="fname" name="fname" value="Ethan Johnson">
+                <br>
+                <input type="text" id="name" name="name" placeholder="Ethan Johnson" >
             </div>
             <div class="company_email">
                 <label for="company_email">Company Email</label>
-                <input type="email" id="Email" name="Email" value="ethan@johnson.com">
+                <br>
+                <input type="email" id="Email" name="Email" placeholder="ethan@johnson.com">
             </div>
             <div class="company_size">
                 <label for="company_size">Company Size</label>
@@ -62,9 +66,10 @@
         </div>
         <!--Segundo contenedor el mensaje-->
         <div class="massage">
-            <p class="text_message">
+            <label for="massage">Massage</label>
+            <div class="text_message">
                 50-100 employees
-            </p>
+            </div>
         </div>
         <!--Tercer contenedor el button-->
         <div class="Contact_Sales">
@@ -73,5 +78,6 @@
             </button>
         </div>
     </main>
+    <br>
 </body>
 </html>

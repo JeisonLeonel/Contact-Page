@@ -1,24 +1,125 @@
+/*Estilo general*/
 body{
     height: 100%;
     width: 100%;
     margin: 0px;
+    padding-bottom: 100px;
     background-image: url(../img/bg-image.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     font-family: "Be Vietnam Pro", sans-serif;
 }
+/*Estilo del icono*/
+.icon{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+/*Estilo del encabezado*/
 .Text_main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35rem;
+    width: 55rem;
     flex-wrap: wrap;
-    padding-left: 34%;
+    padding-left: 19%;
     color: #F8FAFC;
+    
 }
 .Text_main .text_main{
     font-size: 64px;
-    width: 800px;
     margin: 0px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Text_main .text_main p{
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+}
+.Text_main .text_secondary{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 32px;
+    width: 45rem;
+}
+.Text_main .text_secondary p{
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/*Estilo para el formlario*/
+.form{
+    background-color:  rgba(205, 213, 224, 0.2);
+    border-radius: 20px;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    width: 46rem;
+    height: 40rem;
+}
+.form label{
+    font-size: 14px;
+    color: #F8FAFC;
+}
+/*Estilo para la informacion del formulario*/
+.form .information{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.form .information .name {
+    margin-bottom: 30px;
+}
+.form .information .name input[type="text"]{
+    border-radius: 13px;
+    width: 19rem;
+    height: 3rem;
+    margin-top: 5px;
+    border: solid 1px #FFFF;   
+}
+.form .information .name input[type="text"]::placeholder{
+    color: #CDD5E0;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.form .information .company_email input[type="email"]{
+    border-radius: 13px;
+    width: 19rem;
+    height: 3rem;
+    margin-top: 5px;
+    border: solid 1px #FFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.form .information .company_email input[type="email"]::placeholder{
+    color: #CDD5E0;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.form .information .company_size .employees{
+    display: flex;
+    border-radius: 13px;
+    width: 19rem;
+    height: 3rem;
+    margin-top: 5px;
+    border: solid 1px #FFFF;
+    background-color: #F8FAFC;
+    align-items: center;
+    color: #111729;
+
+}
+.form .information .company_size img{
+    padding-left: 120px;
+    height: 24px;
+    width: 24px;
 }
